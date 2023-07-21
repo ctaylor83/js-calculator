@@ -1,0 +1,37 @@
+#calculator {
+    width: 200px;
+    margin: auto;
+  }
+  
+  #display {
+    height: 50px;
+    background: #eee;
+    margin-bottom: 10px;
+    text-align: right;
+    line-height: 50px;
+    padding-right: 10px;
+  }
+  
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .operator {
+    background: #f90;
+  }
+  
+  .equals {
+    background: #0f9;
+    grid-column: span 2;
+  }
+  
+  .clear, .backspace {
+    grid-column: span 2;
+  }
+  
